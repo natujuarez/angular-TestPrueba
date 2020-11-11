@@ -13,7 +13,13 @@ export class ProductListComponent {
   share() {
     window.alert("¡El producto ha sido compartido!");
   }
+
+  onNotify() {
+    window.alert('Se le notificará cuando el producto salga a la venta');
+  }
 }
+
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
